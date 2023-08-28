@@ -14,7 +14,7 @@ const navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
     const guestLinks = (
         <Fragment>
             <Link className='navbar__top__auth__link' to='/login'>Login</Link>
-            <a className='navbar__top__auth__link' to='/login' onClick={() => {window.location.href="/login"}} >Login!!</a>
+           
             <link rel="stylesheet" href="" />
             
             <Link className='navbar__top__auth__link' to='/signup'>Sign Up</Link>
@@ -26,7 +26,7 @@ const navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
             <nav className='navbar'>
                 <div className='navbar__top'>
                     <div className='navbar__top__logo'>
-                        <Link className='navbar__top__logo__link' to='/'>Realest Estate</Link>
+                        <Link className='navbar__top__logo__link' to='/'>Rental & Sale Houses</Link>
                     </div>
                     <div className='navbar__top__auth'>
                         { !loading && (<Fragment>{ isAuthenticated ? authLinks : guestLinks }</Fragment>) }

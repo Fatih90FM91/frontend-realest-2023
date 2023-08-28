@@ -32,7 +32,7 @@ const SignUp = ({ setAlert, signup, isAthenticated }) => {
   };
 
   if(isAthenticated)
-      return <Navigate to='/' />
+      return <Navigate to='/' />;
 
 
   return (

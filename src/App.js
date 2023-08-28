@@ -9,6 +9,7 @@ import Login from './containers/Login';
 import SignUp from './containers/SignUp';
 import NotFound from './components/NotFound';
 import Layout from './hocs/Layout';
+import Footer from './hocs/Footer_Layout';
 import PrivateRoute from './components/privateRoute'
 
 
@@ -22,6 +23,7 @@ const App = () => (
         <Router>
             
                 <Layout>
+              
                 <Routes>
                     <Route exact path='/' element={<Home/>} />
                     <Route exact path='/about'  element={<About/>} />
@@ -36,7 +38,10 @@ const App = () => (
                     <Route exact path='/signup'  element={<SignUp/>} />
                     <Route element={<NotFound/>} />
                 </Routes>
+                
                 </Layout>
+                <Footer />
+               
             
         </Router>
     </Provider>
