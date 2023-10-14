@@ -35,7 +35,7 @@ const footer = ({ auth: { isAuthenticated, loading } }) => {
                 <div class="col-md-12 col-lg-4">
                     <div class="dk-footer-box-info">
                         <a href="index.html" class="footer-logo">
-                            <img src="https://blackeoejournal.com/wp-content/uploads/2022/01/na-Davonne-Reaves-Black-Female-Investor-Profile-884x584-1-e1641320010959.jpeg" alt="footer_logo" class="img-fluid" />
+                            <img src="https://images.pexels.com/photos/3771089/pexels-photo-3771089.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-3771089.jpg&fm=jpg" alt="footer_logo" class="img-fluid" />
                         </a>
                         <p class="footer-info-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
