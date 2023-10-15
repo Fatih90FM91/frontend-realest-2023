@@ -15,7 +15,7 @@ const navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
         <Fragment>
             <Link className='navbar__top__auth__link' to='/login'>Login</Link>
            
-            <link rel="stylesheet" href="" />
+            {/* <link rel="stylesheet" href="" /> */}
             
             <Link className='navbar__top__auth__link' to='/signup'>Sign Up</Link>
         </Fragment>

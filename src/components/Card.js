@@ -13,7 +13,7 @@ const card = (props ,isAuthenticated) => {
         return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
     };
 
-    const isLoggedIn = props.isAuthenticated;
+    const isLoggedIn = props.isAuthenticated; // critical fixed solution...for authentication related with listings page..
       console.log(isAuthenticated);
     return (
         <div className='card'>
