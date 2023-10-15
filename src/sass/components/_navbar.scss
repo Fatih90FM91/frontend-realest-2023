@@ -1,6 +1,13 @@
 .navbar{
     width: 100%;
 
+    img {
+        width: 170px;
+        height: 120px;
+        
+       
+    }
+
     &__top{
         display: flex;
         justify-content: space-between;
@@ -10,11 +17,13 @@
 
         &__logo {
             margin-left: 4rem;
+            
 
             &__link {
                 font-size: 2.8rem;
                 color: $color-white;
                 text-decoration: none;
+                
             }
         }
 

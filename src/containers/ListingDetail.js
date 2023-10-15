@@ -313,26 +313,28 @@ const ListingDetail = (props) => {
                     <p className='listingdetail__about'>{realtor.description}</p>
                 </div>
             </div>
-            <div className='row'>
-                <div className='col-1-of-2'>
-                    <ul className='listingdetail__list'>
-                        <li className='listingdetail__list__item'>Home Type: {listing.home_type}</li>
-                        <li className='listingdetail__list__item'>Price: ${price}</li>
-                        <li className='listingdetail__list__item'>Bedrooms: {listing.bedrooms}</li>
-                        <li className='listingdetail__list__item'>Bathrooms: {listing.bathrooms}</li>
-                        <li className='listingdetail__list__item'>Square Feet: {listing.sqft}</li>
-                    </ul>
-                </div>
-                <div className='col-1-of-2'>
-                    <ul className='listingdetail__list'>
-                        <li className='listingdetail__list__item'>Sale Type: {listing.sale_type}</li>
-                        <li className='listingdetail__list__item'>Address: {listing.address}</li>
-                        <li className='listingdetail__list__item'>City: {listing.city}</li>
-                        <li className='listingdetail__list__item'>State: {listing.state}</li>
-                        <li className='listingdetail__list__item'>Zipcode: {listing.zipcode}</li>
-                    </ul>
-                </div>
-            </div>
+          
+                     <div className='row'>
+                     <div className='col-1-of-2'>
+                         <ul className='listingdetail__list'>
+                             <li className='listingdetail__list__item'>Home Type: {listing.home_type}</li>
+                             <li className='listingdetail__list__item'>Price: ${price}</li>
+                             <li className='listingdetail__list__item'>Bedrooms: {listing.bedrooms}</li>
+                             <li className='listingdetail__list__item'>Bathrooms: {listing.bathrooms}</li>
+                             <li className='listingdetail__list__item'>Square Feet: {listing.sqft}</li>
+                         </ul>
+                     </div>
+                     <div className='col-1-of-2'>
+                         <ul className='listingdetail__list'>
+                             <li className='listingdetail__list__item'>Sale Type: {listing.sale_type}</li>
+                             <li className='listingdetail__list__item'>Address: {listing.address}</li>
+                             <li className='listingdetail__list__item'>City: {listing.city}</li>
+                             <li className='listingdetail__list__item'>State: {listing.state}</li>
+                             <li className='listingdetail__list__item'>Zipcode: {listing.zipcode}</li>
+                         </ul>
+                     </div>
+                 </div>
+       
             <div className='row'>
                 <p className='listingdetail__description'>{listing.description}</p>
             </div>
