@@ -22,12 +22,14 @@ const footer = ({ auth: { isAuthenticated, loading } }) => {
     // );
 
     return (
+        
         <Fragment>
+           
             {/* <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" /> */}
             <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
             <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-
+          
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
             <footer id="dk-footer" class="dk-footer">
         <div class="container">
@@ -35,7 +37,7 @@ const footer = ({ auth: { isAuthenticated, loading } }) => {
                 <div class="col-md-12 col-lg-4">
                     <div class="dk-footer-box-info">
                         <a href="index.html" class="footer-logo">
-                            <img src="https://blackeoejournal.com/wp-content/uploads/2022/01/na-Davonne-Reaves-Black-Female-Investor-Profile-884x584-1-e1641320010959.jpeg" alt="footer_logo" class="img-fluid" />
+                            <img src="https://images.pexels.com/photos/3771089/pexels-photo-3771089.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-3771089.jpg&fm=jpg" alt="footer_logo" class="img-fluid" />
                         </a>
                         <p class="footer-info-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
