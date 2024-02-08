@@ -37,7 +37,9 @@ const ListingForm = (props) => {
         .then(res => {
             setLoading(false);
             props.setListings(res.data);
+            console.log(res.data);
             window.scrollTo(0, 0);
+            
         })
         .catch(err => {
             setLoading(false);

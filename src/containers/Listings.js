@@ -16,7 +16,7 @@ const Listings = () => {
 
         const fetchData = async () => {
             try {
-                const res = await axios.get(`${process.env.REACT_APP_API_URL}/api/listings/?page=1`);
+                const res = await axios.get(`${process.env.REACT_APP_API_URL}/api/listings/?page=1`); 
 
                 setListings(res.data.results);
                 setCount(res.data.count);
@@ -40,6 +40,7 @@ const Listings = () => {
          
           let new_design_photo = listing.photo_main //## http://localhost:8000http://localhost:8000/media/photos/2023/07/01/house2_wRhbBzA.jpg
           let updated_last_design_with_listing_photos = new_design_photo.replace(`${process.env.REACT_APP_API_URL}`, '')
+          console.log(updated_last_design_with_listing_photos);
          
 
             return display.push(
@@ -72,6 +73,7 @@ const Listings = () => {
                     <div className='col-1-of-3'>
                         {display[i+2] ? display[i+2] : null}
                     </div>
+                    
                 </div>
             );
         }
